@@ -1,0 +1,22 @@
+{
+  "name": "papaya-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "@types/uuid": "^9.0.6",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "pino": "^8.16.0",
+    "uuid": "^9.0.1"
+  }
+}

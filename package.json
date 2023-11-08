@@ -1,6 +1,6 @@
 {
   "name": "@core97/papaya-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,6 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "url": "https://github.com/core97/papaya-server"
+  },
   "publishConfig": {
     "@core97:registry": "https://npm.pkg.github.com"
   },

@@ -1,10 +1,11 @@
 {
   "name": "@core97/papaya-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
     "build": "tsc"
   },
   "keywords": [],

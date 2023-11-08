@@ -1,5 +1,5 @@
 {
-  "name": "papaya-server",
+  "name": "@core97/papaya-server",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -10,6 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "@core97:registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@types/node": "^20.8.7",
     "@types/uuid": "^9.0.6",

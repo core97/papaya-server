@@ -24,11 +24,9 @@ export const controller = (
 
     const url = new URL(request.url);
 
+    request.logger = logger;
     request.params = options?.urlParams || {};
     request.searchParams = {};
-    request.context = {
-      log: logger,
-    };
 
     url.searchParams.forEach((key, value) => {
       const searchParamValue = request.searchParams[key];
@@ -69,11 +67,7 @@ export const controller = (
 
       return res;
     } catch (error) {
-      const errorMsg =
-        error instanceof Error ? error.message : 'unexpected error';
-
-      logger.error(`Request error: ${errorMsg}`);
-      logger.error(error);
+      logger.error(error, 'Request error');
 
       if (error instanceof AppError) {
         const httpStatus = ERROR_CODE_TO_HTTP_STATUS[error.httpCode];

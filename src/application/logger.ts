@@ -10,7 +10,7 @@ const pinoLogger = pino({
       colorize: true,
     },
   },
-  messageKey: 'message',
+  messageKey: 'x-message',
 });
 
 export function createLogger(

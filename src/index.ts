@@ -17,3 +17,6 @@ export * from '@/application/http/http-handler';
 
 // Logger
 export * from '@/application/logger';
+
+// Types
+export type { PapayaRequest } from '@/types/request';

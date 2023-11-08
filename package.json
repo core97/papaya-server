@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "pino": "^8.16.0",
+    "pino-pretty": "^10.2.3",
     "uuid": "^9.0.1"
   }
 }
